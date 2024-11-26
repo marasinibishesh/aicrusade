@@ -1,0 +1,43 @@
+.AboutBck{
+    background-color: #FF7F7F;
+   height: 70vh;
+   display: flex;
+   justify-content: center;
+    align-items: flex-start;
+}
+.AboutText{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Catlogo{
+    width: 300px;
+    height: 300px;
+}
+.textPara{
+    font-size: 20px;
+                color: #283346;
+                margin-top: 20px;
+                margin-left: 50px;
+                margin-right: 50px;
+                padding: 20px;
+}
+@media (max-width: 1014px) {
+    .AboutBck{
+        height: 105vh;
+    }
+    .AboutText{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .textPara{
+        font-size: 18px;
+                    color: #283346;
+                    margin-top: 10px;
+                    margin-left: 20px;
+                    margin-right: 20px;
+                    
+    }
+}

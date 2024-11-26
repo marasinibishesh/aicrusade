@@ -26,7 +26,7 @@ const Navigation = () => {
     style={{
         position:'fixed',
         width: '85%', // Full width
-        zIndex: '1000', // Ensure it stays above other content
+        zIndex: '999', // Ensure it stays above other content
         marginLeft: '25px', // Center the navbar
         
     }}>

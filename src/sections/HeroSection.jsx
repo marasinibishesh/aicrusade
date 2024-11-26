@@ -4,7 +4,7 @@ const HeroSection = () => {
   return (
     <div style={{
         backgroundColor: '#f0f0f0',
-        height: '200vh',
+        height: '130vh',
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'flex-start',

@@ -45,7 +45,7 @@ const HackathonInfo = () => {
       <div className="divider" />
       <div className="info-section">
         <span className="info-label">Venue</span><br></br>
-        <span className="info-value">Lalitpur,Nepal</span>
+        <span className="info-value">📍 Lalitpur,Nepal</span>
       </div>
     </div>
   );
