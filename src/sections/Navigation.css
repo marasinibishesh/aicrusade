@@ -15,7 +15,7 @@ body {
     border-radius: 50px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     margin: 20px auto;
-    width: 90%;
+    
   }
   
   .navbar-left {
@@ -40,6 +40,8 @@ body {
     font-weight: bold;
     font-size: 18px;
     margin-left: 0%;
+    color:#283346;
+    ;
   }
   
   .navbar-right {

@@ -22,7 +22,14 @@ const Navigation = () => {
       };
     }, []);
   return (
-    <div className="navbar">
+    <div className="navbar"
+    style={{
+        position:'fixed',
+        width: '85%', // Full width
+        zIndex: '1000', // Ensure it stays above other content
+        marginLeft: '25px', // Center the navbar
+        
+    }}>
       <div className="navbar-left">
         {/* Hamburger menu icon for smaller screens */}
         {/* Added code */}
