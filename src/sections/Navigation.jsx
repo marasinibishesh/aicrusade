@@ -38,15 +38,18 @@ const Navigation = () => {
         </span>
         <span className="back-arrow">
             <img src="https://firebasestorage.googleapis.com/v0/b/basaisaraiofficial.appspot.com/o/AICrusade%2FGroup%201%20(1).png?alt=media&token=23d0648c-80b2-4e14-9dfb-6a12965e624c" alt='AI'className="image"/></span>
-        <span className="logo">AICrusade</span>
+        <span className="logo" style={{
+          fontFamily:'fantasy'
+        }}>Crusade</span>
       </div>
       <div className="navbar-right">
         {/* Regular nav links (hidden for smaller screens) */}
         <a href="#about" className="nav-link">About   AICrusade</a>
         <a href="#challenge" className="nav-link">Challenge</a>
         <a href="#prizes" className="nav-link">Prize Pool</a>
-        <a href="#ideas" className="nav-link">Track</a>
+        <a href="#tracks" className="nav-link">Track</a>
         <a href="#faqs" className="nav-link">FAQs</a>
+        <a href="#register" className="nav-link">Register</a>
       </div>
 
       {/* Dropdown menu (only visible when the hamburger menu is clicked) */}
@@ -56,8 +59,9 @@ const Navigation = () => {
           <a href="#about" className="dropdown-link">About AICrusade</a>
           <a href="#challenge" className="dropdown-link">Challenge</a>
           <a href="#prizes" className="dropdown-link">Prize Pool</a>
-          <a href="#ideas" className="dropdown-link">Track</a>
+          <a href="#tracks" className="dropdown-link">Track</a>
           <a href="#faqs" className="dropdown-link">FAQs</a>
+          <a href="#register" className="nav-link">Register</a>
         </div>
       )}
     </div>

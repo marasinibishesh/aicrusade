@@ -20,7 +20,7 @@ const AboutSection = () => {
             About AICrusade
         </h1>
         <div className='AboutText'>
-            <img src="https://firebasestorage.googleapis.com/v0/b/basaisaraiofficial.appspot.com/o/AICrusade%2FCat_Coding-ai-brush-removebg-gxqog7ms.png?alt=media&token=a7eabf7f-7331-4026-b936-68d66e7cb634"  className='Catlogo'/>
+            <img src="https://firebasestorage.googleapis.com/v0/b/basaisaraiofficial.appspot.com/o/AICrusade%2FGroup%205(1).png?alt=media&token=348c319d-e6a8-46e5-87f3-5a68bfb5b502"  className='Catlogo'/>
             <p style={{
                 fontFamily:'monospace',
             }} className='textPara'>

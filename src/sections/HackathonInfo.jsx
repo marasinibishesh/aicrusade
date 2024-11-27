@@ -35,17 +35,38 @@ const HackathonInfo = () => {
     <div className="hackathon-info">
       <div className="info-section">
         <span className="info-label">Dates</span><br></br>
-        <span className="info-value">Nov 30 - Dec 1, 2024</span>
+        <span className="info-value" style={{
+        fontFamily:'monospace',
+    }}>Nov 30 - Dec 1, 2024</span>
       </div>
       <div className="divider" />
       <div className="info-section">
         <span className="info-label">Starts in</span><br></br>
-        <span className="info-value">{formatTimeLeft()}</span>
+        <span className="info-value" style={{
+        fontFamily:'monospace',
+    }}>{formatTimeLeft()}</span>
       </div>
       <div className="divider" />
       <div className="info-section">
         <span className="info-label">Venue</span><br></br>
-        <span className="info-value">📍 Lalitpur,Nepal</span>
+        <span className="info-value" style={{
+        fontFamily:'monospace',
+        
+    }}><a href='https://maps.app.goo.gl/VioTXkrhTpAZK8qm8'target="_blank"
+    rel="noopener noreferrer"
+    style={{
+        color: '#283346',
+
+        transition: 'color 0.3s ease, textDecorationColor 0.3s ease'
+    }}
+    onMouseEnter={(e) => {
+        e.target.style.color = '#FF7F7F';
+        e.target.style.textDecorationColor = '#FF7F7F';
+    }}
+    onMouseLeave={(e) => {
+        e.target.style.color = '#283346';
+        e.target.style.textDecorationColor = '#283346';
+    }}>Hotel View Bhrikuti, Godawari, Lalitpur</a></span>
       </div>
     </div>
   );

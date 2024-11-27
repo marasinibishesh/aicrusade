@@ -3,7 +3,6 @@ import HackathonInfo from './HackathonInfo'
 const HeroSection = () => {     
   return (
     <div style={{
-        backgroundColor: '#f0f0f0',
         height: '130vh',
         display: 'flex',
         justifyContent: 'center',
@@ -67,7 +66,23 @@ const HeroSection = () => {
                 fontFamily:'monospace',
                 width: '100%',
             }}>
-                Registration is OPEN for <b>AI Crusade 2024</b> Hackathon! Bring your innovative ideas to life and compete with the best! Don't wait, secure your spot today!
+                <a href='https://docs.google.com/forms/d/e/1FAIpQLSfEcr_0CwR9BaKQFGzclGH1cDiRfJE_tSuYmyqayElZRxJrrg/viewform'
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{
+                    textDecoration: 'underline',
+                    color: '#283346',
+                    textUnderlineOffset: '5px',
+                    transition: 'color 0.3s ease, textDecorationColor 0.3s ease'
+                }}
+                onMouseEnter={(e) => {
+                    e.target.style.color = '#FF7F7F';
+                    e.target.style.textDecorationColor = '#FF7F7F';
+                }}
+                onMouseLeave={(e) => {
+                    e.target.style.color = '#283346';
+                    e.target.style.textDecorationColor = '#283346';
+                }}>Registration is OPEN</a> for <b>AI Crusade 2024</b> Hackathon! Bring your innovative ideas to life and compete with the best! Don't wait, secure your spot today!
             </h2>
             </div>
         </div>  

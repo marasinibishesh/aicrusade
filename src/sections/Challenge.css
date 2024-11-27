@@ -1,0 +1,52 @@
+.changName{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.box{
+  width: 90%; /* Adjust the width as needed */
+  max-width: 800px; /* Set a maximum width */
+  background: rgba(255, 255, 255, 0.073); /* Light transparent background */
+  backdrop-filter: blur(0px); /* Apply blur effect */
+  -webkit-backdrop-filter: blur(0px); /* For Safari */
+  border-radius: 10px; /* Rounded corners */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Optional border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  display: flex; /* For centering content */
+  align-items: flex-start; /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+  padding: 10px;
+  margin-top: 10px;
+}
+.changPara{
+    font-size: 1.2rem;
+    color: white;
+    text-align:flex-start;
+    margin: 5px;
+    word-wrap: break-word;
+    line-height: 1.6;
+
+}
+/* Responsive adjustments */
+@media (min-width: 768px) {
+    .box {
+      padding: 30px; /* Adds padding on larger screens */
+    }
+    
+    .changPara {
+      font-size: 1.2rem; /* Slightly larger text for readability */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .box {
+      padding: 15px; /* Reduces padding for small screens */
+    }
+    
+    .changPara{
+      font-size: 0.9rem; /* Smaller font for compact screens */
+    }
+  }
+  
+  

@@ -1,0 +1,69 @@
+.prize-theme-container {
+    display: flex;
+    justify-content: center; /* Centers the prize box horizontally */
+    align-items: center; /* Aligns content vertically */
+    margin: 30px auto; /* Adds spacing around the prize section */
+    width: 90%;
+    max-width: 1200px; /* Restricts max width for better responsiveness */
+  }
+  
+  .prize-box {
+    width: 100%;
+    max-width: 600px; /* Makes the prize box responsive */
+    background: linear-gradient(145deg, #ffb400, #ff8c00); /* Gradient background for vibrancy */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Adds depth */
+    font-family: 'Arial', sans-serif;
+    animation: pulse 3s infinite; /* Subtle animation for effect */
+  }
+  
+  .prize-box h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  .prize-box p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  /* Add some hover effect */
+  .prize-box:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+    box-shadow: 0 8px 14px rgba(0, 0, 0, 0.3); /* Intensify shadow on hover */
+  }
+  
+  /* Animation for pulsating effect */
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    }
+    50% {
+      transform: scale(1.02);
+      box-shadow: 0 8px 14px rgba(0, 0, 0, 0.3);
+    }
+    100% {
+      transform: scale(1);
+      box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+    }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .prize-box {
+      padding: 15px;
+    }
+  
+    .prize-box h3 {
+      font-size: 1.8rem;
+    }
+  
+    .prize-box p {
+      font-size: 1rem;
+    }
+  }
+  

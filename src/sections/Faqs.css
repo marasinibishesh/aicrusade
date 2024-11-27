@@ -1,0 +1,56 @@
+/* General container styling */
+.faq-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 12px;
+    border: 1px solid #28334618;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0);
+    font-family: Arial, sans-serif;
+  }
+  
+  .faq-container h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* FAQ Item */
+  .faq-item {
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+  }
+  
+  .faq-question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #555;
+    transition: color 0.3s;
+  }
+  
+  .faq-question:hover {
+    color: #283346;
+  }
+  
+  .icon {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .faq-answer {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Add smooth expand/collapse animation */
+  .faq-answer {
+    transition: all 0.3s ease-in-out;
+  }
+  

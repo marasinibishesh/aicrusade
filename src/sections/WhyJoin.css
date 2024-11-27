@@ -1,0 +1,50 @@
+.why-join-box {
+    width: 90%;
+    max-width: 800px;
+    background: rgba(255, 255, 255, 0.073);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+  }
+  
+  .box-title {
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .points-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .point {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    width: 100%;
+    max-width: 45%; /* Ensures two points side by side on larger screens */
+  }
+  
+  .point svg {
+    flex-shrink: 0;
+  }
+  
+  .point span {
+    font-size: 1.2rem;
+    color: white;
+    line-height: 1.6;
+    word-wrap: break-word;
+  }
+  
+  @media (max-width: 768px) {
+    .point {
+      max-width: 100%; /* Stacks points in rows on smaller screens */
+    }
+  }

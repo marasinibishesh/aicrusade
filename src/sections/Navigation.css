@@ -33,13 +33,13 @@ body {
     width: 30px;
     height: 30px;
     object-fit: cover;
-    margin-right: 0%;
+    
   }
   
   .logo {
-    font-weight: bold;
-    font-size: 18px;
-    margin-left: 0%;
+    
+    font-size: 25px;
+    
     color:#283346;
     ;
   }
@@ -86,7 +86,7 @@ body {
     position: absolute;
     top: 60px; /* Adjust below the navbar */
     left: 20px; /* Align with the left side */
-    background: rgba(255, 255, 255, 0.1);
+    background: rgb(255, 255, 255);
     border: 1px solid rgba(255, 255, 255, 0.3);
     backdrop-filter: blur(10px);
     border-radius: 8px;
