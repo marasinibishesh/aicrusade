@@ -1,10 +1,10 @@
 import React,{ useState } from 'react'
 import './Faqs.css'
 const Faqs = () => {
-    // State to track which question is expanded
+    
   const [expanded, setExpanded] = useState(null);
 
-  // Data for FAQs
+  
   const faqData = [
     {
       question: "Who can participate in AICrusade 2024 Hackathon?",
